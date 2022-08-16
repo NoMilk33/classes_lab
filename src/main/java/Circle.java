@@ -7,7 +7,7 @@ public class Circle {
     }
 //    Getter
     public double getRadius() {
-        return radius;
+        return this.radius;
     }
 
 //    Setter
@@ -17,7 +17,7 @@ public class Circle {
 
 //    Getter
     public double getCircumference(){
-        return 2 * radius * Math.PI;
+        return 2 * this.radius * Math.PI;
     }
 
     public String toString() {
