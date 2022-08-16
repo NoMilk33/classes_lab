@@ -2,18 +2,26 @@ public class Circle {
 
     double radius;
 
-//    Setter
-    public void setRadius(double radius) {
+    public Circle(double radius){ //taken from solution
         this.radius = radius;
+    }
+//    Getter
+    public double getRadius() {
+        return radius;
+    }
+
+//    Setter
+    public void setRadius(double newRadius) {
+        this.radius = newRadius;
     }
 
 //    Getter
     public double getCircumference(){
-        return radius;
+        return 2 * radius * Math.PI;
     }
 
-    public double toString() {
-    return "Circle{"
+    public String toString() {
+    return "Circle";
     }
 
 
